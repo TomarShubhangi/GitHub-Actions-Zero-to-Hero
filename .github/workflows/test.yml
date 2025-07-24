@@ -1,0 +1,11 @@
+name: Test Self-Hosted Runner
+
+on: [push]
+
+jobs:
+  test-runner:
+    runs-on: self-hosted
+    steps:
+      - name: Say Hello
+        run: echo "🎉 Your self-hosted runner is working!"
+
